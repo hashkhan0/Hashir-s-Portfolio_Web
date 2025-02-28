@@ -34,10 +34,10 @@ const Projects = () => {
       id: 3,
       title: "Portfolio Web",
       description: "The Resume Portfolio Web Application is a modern, dynamic platform designed to showcase my professional profile, skills, and projects in a sleek and interactive manner.",
-      technologies: ["React.js", "Three.js for 3D graphics", "EmailJs", "Netlify"],
+      technologies: ["React.js", "Three.js for 3D graphics","Tailwind CSS", "EmailJs", "Netlify"],
       image: pwImage,
-      link: "https://github.com/yourusername/project3",
-      demo: "https://project3-demo.com"
+      link: "https://github.com/hashkhan0/Hashir-s-Portfolio_Web",
+      demo: "https://hashirsportfolio.netlify.app"
     },
     {
       id: 4,
