@@ -3,6 +3,8 @@ import * as THREE from 'three';
 import tokenForgeImage from '../images/tokenforge.jpg';
 import rareFindsImage from '../images/rarefinds_Pics1.jpg';
 import pwImage from '../images/PortfolioWebPic.jpg';
+import mvImage from '../images/mintvault.jpg';
+
 
 const Projects = () => {
   const canvasRef = useRef(null);
@@ -23,6 +25,15 @@ const Projects = () => {
     },
     {
       id: 2,
+      title: "MintVault: Your own NFT wallet",
+      description: "MintVault is a decentralized NFT minting dApp that allows users to create and store NFTs securely on the blockchain",
+      technologies: ["React.js", "Solidity", "Ether.js", "Metamask", "Express", "Tailwind CSS", "Netlify"],
+      image: mvImage,
+      link: "https://github.com/hashkhan0/MintVault",
+      demo: "https://mintvault.netlify.app"
+    },
+    {
+      id: 3,
       title: "Rare Finds",
       description: "Rare Finds is a mobile application for unique items marketplace in Pakistan, ensuring security, transparency, and trust in transactions.",
       technologies: ["React Native", "MongoDB", "Solidity", "Tailwind CSS","Node.js"],
@@ -31,22 +42,13 @@ const Projects = () => {
       demo: "https://github.com/hashkhan0/rarefinds"
     },
     {
-      id: 3,
+      id: 4,
       title: "Portfolio Web",
       description: "The Resume Portfolio Web Application is a modern, dynamic platform designed to showcase my professional profile, skills, and projects in a sleek and interactive manner.",
       technologies: ["React.js", "Three.js for 3D graphics","Tailwind CSS", "EmailJs", "Netlify"],
       image: pwImage,
       link: "https://github.com/hashkhan0/Hashir-s-Portfolio_Web",
       demo: "https://hashirsportfolio.netlify.app"
-    },
-    {
-      id: 4,
-      title: "Weather Dashboard",
-      description: "A responsive weather dashboard that provides current conditions and forecasts based on location.",
-      technologies: ["React", "Chart.js", "Weather API", "Leaflet"],
-      image: "/project4.jpg",
-      link: "https://github.com/yourusername/project4",
-      demo: "https://project4-demo.com"
     }
   ];
 
