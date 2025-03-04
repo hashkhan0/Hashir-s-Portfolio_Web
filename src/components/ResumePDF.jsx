@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import resumeImage from '../images/resume.jpg'; // Adjust the path as needed
+import resumeImage from '../images/resume (2).jpg'; 
 import * as THREE from 'three';
 
 const ResumePage = () => {
@@ -91,7 +91,7 @@ const ResumePage = () => {
             {/* Download Button */}
             <div className="mt-6 sm:mt-8 z-10">
                 <a 
-                    href="/resume.jpg" // Path to your resume PDF in the public folder
+                    href="/resume.jpg" 
                     download="Hashir_Resume.jpg" // Name of the downloaded file
                     className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors"
                 >
